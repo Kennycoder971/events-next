@@ -1,0 +1,30 @@
+.form {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid;
+}
+.form h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.formControl label {
+    font-size: 1.2rem;
+    margin-bottom: 1rem ;
+    margin-right: 1rem;
+    display: inline-block;
+    font-weight: bold;
+}
+.formControl input[type='text'],
+.formControl input[type='url'],
+.formControl textarea {
+    width: 100%;
+}
+
+.formControl input,
+.formControl textarea {
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    border: 1px solid;
+}

@@ -1,0 +1,27 @@
+.event {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imgContainer {
+    width: 250px;
+    background-color: red;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    text-align: left;
+    background-color: #222;
+}
+.textContainer h3,
+.textContainer address {
+    margin-bottom: 1rem;
+}
